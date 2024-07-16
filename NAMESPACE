@@ -17,7 +17,7 @@ export(
    testSame.RSiena, funnelPlot, meta.table
 )
 
-import(Matrix, lattice, parallel, MASS)
+import(Matrix, lattice, parallel, snow, MASS)
 importFrom("grDevices", "rgb", "xy.coords")
 importFrom("graphics", "axis", "barplot", "layout", "lines",
            "mtext", "pairs", "panel.smooth", "par", "pie", "plot",
